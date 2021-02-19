@@ -13,14 +13,14 @@ class Form{
     }
     display() {
         this.title.html("FRUIT CATCHER");
-        this.title.position(550, 50);
+        this.title.position(650, 50);
         this.title.style('font-size', '70px');
         this.title.style('color', 'skyblue');
-        this.input.position(750,400);
+        this.input.position(850,400);
         this.input.style('width', '200px');
         this.input.style('height', '20px');
         this.input.style('background', 'lavender');
-        this.button.position(760,500);
+        this.button.position(860,500);
         this.button.style('width', '200px');
         this.button.style('height', '40px');
         this.button.style('background', 'lightpink');
@@ -34,7 +34,7 @@ class Form{
             player.update();
             player.updateCount(playerCount);
             this.greeting.html("Hello " + player.name)
-            this.greeting.position(600,250);
+            this.greeting.position(700,250);
             this.greeting.style('color', 'white');
             this.greeting.style('font-size', '100px');
         });
